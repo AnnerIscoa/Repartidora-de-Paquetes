@@ -1,7 +1,7 @@
 ﻿
 namespace Sistema_repartidore_de_Paquetes.Vistas
 {
-    partial class Inicio
+    partial class InicioView
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioView));
             this.ContraseñatextBox = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.IniciarSesionbutton = new System.Windows.Forms.Button();

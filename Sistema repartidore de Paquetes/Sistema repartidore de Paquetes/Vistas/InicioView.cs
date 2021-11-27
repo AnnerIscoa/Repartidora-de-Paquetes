@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Sistema_repartidore_de_Paquetes.Vistas
 {
-    public partial class Inicio : Syncfusion.Windows.Forms.Tools.RibbonForm
+    public partial class InicioView : Syncfusion.Windows.Forms.Tools.RibbonForm
     {
-        public Inicio()
+        public InicioView()
         {
             InitializeComponent();
         }

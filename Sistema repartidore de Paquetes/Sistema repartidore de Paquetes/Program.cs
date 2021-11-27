@@ -17,7 +17,7 @@ namespace Sistema_repartidore_de_Paquetes
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NTQwMjUzQDMxMzkyZTMzMmUzMEsraUxTdmlhQWwwRkdhUnQ4TEQzVXpKbTNMbmFmcXBveUF1V2FBbFNKTlE9");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(new InicioView());
         }
     }
 }
