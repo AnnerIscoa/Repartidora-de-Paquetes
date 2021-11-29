@@ -35,8 +35,10 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
+            this.toolStripTabItem1.Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControlAdv1
@@ -67,7 +69,7 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
             this.ribbonControlAdv1.QuickPanelVisible = false;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem5;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(904, 128);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -82,6 +84,7 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
             // 
             // ribbonControlAdv1.ribbonPanel1
             // 
+            this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx1);
             this.toolStripTabItem1.Panel.Name = "ribbonPanel1";
             this.toolStripTabItem1.Panel.ScrollPosition = 0;
             this.toolStripTabItem1.Panel.TabIndex = 2;
@@ -151,6 +154,21 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
             this.toolStripTabItem5.Tag = "5";
             this.toolStripTabItem5.Text = "Factura";
             // 
+            // toolStripEx1
+            // 
+            this.toolStripEx1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStripEx1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.toolStripEx1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripEx1.Image = null;
+            this.toolStripEx1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStripEx1.Location = new System.Drawing.Point(0, 1);
+            this.toolStripEx1.Name = "toolStripEx1";
+            this.toolStripEx1.Office12Mode = false;
+            this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.toolStripEx1.Size = new System.Drawing.Size(106, 43);
+            this.toolStripEx1.TabIndex = 0;
+            // 
             // MenuView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -164,6 +182,8 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
             this.ribbonControlAdv1.ResumeLayout(false);
             this.ribbonControlAdv1.PerformLayout();
+            this.toolStripTabItem1.Panel.ResumeLayout(false);
+            this.toolStripTabItem1.Panel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -176,5 +196,6 @@ namespace Sistema_repartidore_de_Paquetes.Vistas
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem2;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem3;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem4;
+        private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx1;
     }
 }
